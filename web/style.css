@@ -1,0 +1,59 @@
+body {
+    font-family: "Helvetica-W02-Light";
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+    background-color: #333;
+    hover;
+    overflow: hidden;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-bar li {
+    float: left;
+}
+
+.menu-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    background-color: #ed1b1b;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.resized-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 2;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-bar ul {
+        display: none;
+    }
+}
